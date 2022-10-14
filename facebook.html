@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook logo</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .facebook-logo{
+            height: 200px;
+            width: 200px;
+            background-color: #3b5999;
+            border-radius: 100px;
+        }
+        .facebook-logo:after{
+            content: "f";
+            color:#ffff;
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-family: Facebook Letter Faces, Arial;
+            font-size: 190px;
+            font-weight: bold;
+        }
+        .facebook-logo:hover{
+            background-color: black;
+            transition: 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="facebook-logo"></div>
+</body>
+</html>
